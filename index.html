@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=IBM+Plex+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <form action="#" class="checkRailway" id="form">
+                <h1 class="checkRailway__title">Проверьте ЖД сообщение между городами</h1>
+                <div class="checkRailway__box">
+                    <div class="checkRailway__input input">
+                        <p class="input__title">Место отправки</p>
+                        <input id="from" type="text">
+                    </div>
+                    <div class="checkRailway__input input">
+                        <p class="input__title">Место доставки</p>
+                        <input id="from" type="text">
+                    </div>
+                    <button type="submit" class="checkRailway__button">Проверить ЖД сообщение</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section class="section-1"></section>
+    <section class="schedule" id="schedule">
+        <div class="container">
+            <div class="schedule__box">
+                <h1 class="schedule__title">
+                    Актуальный график отправки по ЖД 
+                    <div class="dropdown">
+                        <div class="dropdown__title">из Москвы</div>
+                        <ul class="dropdown__list">
+                            <li class="dropdown__item">
+                                Из Казани                                
+                                <input class="dropdown__input" type="radio" name="singleSelect" checked />
+                            </li>
+                            <li class="dropdown__item">
+                                Из Владивостока                                
+                                <input class="dropdown__input" type="radio" name="singleSelect" />
+                            </li>
+                            <li class="dropdown__item">
+                                Из Иркутска                         
+                                <input class="dropdown__input" type="radio" name="singleSelect" />
+                            </li>
+                            <li class="dropdown__item">
+                                Из Омска                             
+                                <input class="dropdown__input" type="radio" name="singleSelect" />
+                            </li>
+                          </ul>
+                    </div>
+                </h1>
+                <div class="schedule__grid">
+                    <div class="schedule__item-1 weekday">
+                        <ul class="weekday__list">
+                            <li class="weekday__item">Понедельник</li>
+                            <li class="weekday__item">Вторник</li>
+                            <li class="weekday__item">Среда</li>
+                            <li class="weekday__item">Четверг</li>
+                            <li class="weekday__item">Пятница</li>
+                            <li class="weekday__item">Суббота</li>
+                            <li class="weekday__item">Воскресенье</li>
+                        </ul>
+                    </div>
+                    <div class="schedule__item-2 city">
+                        <ul class="city__list">
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Новосибирск</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Владивосток</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Иркутск</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Екатеринбург</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Красноярск</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Улан-Удэ</div>
+                                    <div class="city__box-check accumulation">
+                                        По накоплению
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Чита</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Беркакит</div>
+                                    <div class="city__box-check accumulation">
+                                        По накоплению
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Благовещенск</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Томмот</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="city__item">
+                                <div class="city__row">
+                                    <div class="city__name">Хабаровск</div>
+                                    <div class="city__box-check">
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                        <div class="city__check">
+                                            <div class="check"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="section-1"></section>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
